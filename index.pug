@@ -1,3 +1,11 @@
+mixin nav-a(img, textZH, textEN)
+    a(href="#")
+        img(src="img/" + img + ".png" alt="連結 縮圖")
+        span=textZH
+        br
+        span=textEN
+
+
 <!DOCTYPE html>
 html(lang="zh")
     head
@@ -9,3 +17,10 @@ html(lang="zh")
             div(id="logo") LION SUGAR
                 br
                 span 獅子堂黑糖專賣
+            nav
+                +nav-a("", "關於我們", "ABOUT")
+                +nav-a("", "關於我們", "ABOUT")
+                +nav-a("", "關於我們", "ABOUT")
+                +nav-a("", "關於我們", "ABOUT")
+                +nav-a("", "關於我們", "ABOUT")
+                +nav-a("", "關於我們", "ABOUT")
