@@ -16,7 +16,7 @@ body {
   display: grid;
   -ms-grid-columns: 20% 80%;
       grid-template-columns: 20% 80%;
-  color: #ffe159;
+  color: #e9ca40;
   height: 10vh;
   padding: 15px;
   position: fixed;
@@ -49,7 +49,8 @@ body {
 .logo {
   font-size: 1.3em;
   padding: 0 15px;
-  color: #ffe159;
+  color: #e9ca40;
+  letter-spacing: 3px;
 }
 
 .logo .logo-zh {
@@ -82,6 +83,35 @@ body {
 #about {
   height: 90vh;
   position: relative;
+  color: white;
+}
+
+#about .about-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 90%;
+      grid-template-columns: 10% 90%;
+  padding: 30px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .about-box img {
+  width: 60px;
+  padding: 20px 0;
+}
+
+#about .about-box h2 {
+  font-weight: 400;
+  font-size: 1.6em;
+  padding: 20px 0;
+}
+
+#about .about-box p {
+  font-weight: 100;
+  font-size: 0.8em;
+  line-height: 2;
 }
 
 #classical {
@@ -160,5 +190,37 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 30px 0;
+}
+
+.franchisee-box {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.franchisee-box a {
+  text-decoration: none;
+  color: #e9ca40;
+}
+
+.franchisee-box a .logo {
+  font-size: 2.5em;
+}
+
+.franchisee-box a .logo .logo-zh {
+  font-size: 0.65em;
+}
+
+.franchisee-box a h3 {
+  font-size: 2.1em;
+  padding: 10px 0;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  opacity: 0.5;
+  font-size: 0.6em;
+  padding: 20px 0;
+  background-color: #000;
 }
 /*# sourceMappingURL=style.css.map */
