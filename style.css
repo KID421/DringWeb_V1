@@ -24,16 +24,6 @@ body {
   z-index: 10;
 }
 
-#nav #logo {
-  font-size: 1.3em;
-  padding: 0 15px;
-}
-
-#nav #logo #logo-zh {
-  font-size: 0.6em;
-  letter-spacing: 7px;
-}
-
 #nav a {
   text-decoration: none;
   color: white;
@@ -54,6 +44,17 @@ body {
 
 #nav nav {
   padding-top: 15px;
+}
+
+.logo {
+  font-size: 1.3em;
+  padding: 0 15px;
+  color: #ffe159;
+}
+
+.logo .logo-zh {
+  font-size: 0.6em;
+  letter-spacing: 7px;
 }
 
 .title {
@@ -82,6 +83,15 @@ body {
   position: relative;
 }
 
+#classical {
+  height: 90vh;
+  position: relative;
+}
+
+#classical .classical-box {
+  text-align: center;
+}
+
 .bg {
   background-size: cover;
   width: 100%;
@@ -98,6 +108,10 @@ body {
 }
 
 .bg-location {
+  background-image: url(img/about.jpg);
+}
+
+.bg-classical {
   background-image: url(img/about.jpg);
 }
 
