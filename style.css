@@ -55,6 +55,7 @@ body {
 .logo .logo-zh {
   font-size: 0.6em;
   letter-spacing: 7px;
+  margin-right: -7px;
 }
 
 .title {
